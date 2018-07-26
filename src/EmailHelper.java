@@ -18,7 +18,7 @@ public class EmailHelper {
         public static void sendMailViaGodaddy(String from, String password,List<String> to,String subject,String text ) {
         try {
         	
-        	hihiasid 
+        	
         	
           Properties props = System.getProperties();
           props.setProperty("mail.transport.protocol", "smtp");
