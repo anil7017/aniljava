@@ -8,17 +8,14 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
- 
 
- 
+
 public class EmailHelper {
  
 
        
         public static void sendMailViaGodaddy(String from, String password,List<String> to,String subject,String text ) {
         try {
-        	
-        	
         	
           Properties props = System.getProperties();
           props.setProperty("mail.transport.protocol", "smtp");
